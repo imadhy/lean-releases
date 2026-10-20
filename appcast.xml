@@ -3,6 +3,30 @@
     <channel>
         <title>Lean</title>
         <item>
+            <title>0.1.2</title>
+            <pubDate>Tue, 20 Oct 2026 16:51:19 +0000</pubDate>
+            <sparkle:version>247</sparkle:version>
+            <sparkle:shortVersionString>0.1.2</sparkle:shortVersionString>
+            <sparkle:minimumSystemVersion>26.0</sparkle:minimumSystemVersion>
+            <description sparkle:format="markdown"><![CDATA[## Corrections
+
+- **Impression** : le bouton « Imprimer » d'une page (billet, facture, reçu) ouvre maintenant la feuille d'impression. Il ne faisait rien.
+- **Fenêtres popup** : une popup se redimensionne et se déplace quand sa page le demande, sans sortir de l'écran. Son menu contextuel est celui des onglets : « Ouvrir le lien dans un nouvel onglet », « Ouvrir l'image dans un nouvel onglet » et « Rechercher avec » ton moteur de recherche.
+- **Fiche du site** : le cadenas décrit toujours la page affichée, même pendant le chargement d'une autre adresse. Un avertissement de certificat que tu as passé ne vaut plus que pour ce serveur et ce certificat.
+- **Spaces** : l'historique, les cookies et les connexions d'un Space isolé ne sont plus effacés que si tu supprimes ce Space. Avant, une session illisible au lancement pouvait les faire perdre.
+- **Téléchargements** : « Réessayer » reprend un téléchargement avec les cookies de son Space, jamais avec ceux d'un autre. Le bouton reste grisé tant qu'aucune page de ce Space n'est ouverte.
+- **Mots de passe** :
+  - Lean reconnaît les connexions des sites faits de composants web (Shadow DOM), même sans formulaire.
+  - Lean ne propose plus de mot de passe fort quand tu as déjà tapé le tien : il l'écrasait.
+  - Un clic sur la liste des identifiants n'est plus ignoré quand la page remet le focus sur son champ.
+]]></description>
+            <enclosure url="https://github.com/imadhy/lean-releases/releases/download/v0.1.2/Lean-0.1.2.zip" length="9901952" type="application/octet-stream" sparkle:edSignature="Fq37Lgg9yU80Ryz2iUFdw8I/P/WQrx2MAGKt9n32mgv4GNdHzdLG/xQjhDWK7+ds1eoEJ9E362qlWbqdN2+rDw=="/>
+            <sparkle:deltas>
+                <enclosure url="https://github.com/imadhy/lean-releases/releases/download/v0.1.2/Lean247-220.delta" sparkle:deltaFrom="220" length="3826682" type="application/octet-stream" sparkle:deltaFromSparkleExecutableSize="976432" sparkle:deltaFromSparkleLocales="de,he,ar,el,ja,fa,uk" sparkle:edSignature="zjSiifn3HQGM10RRBs0eP1vYbRYZ00BGl72jn4GYKs0SCACCkedpAMwW3RXlJJ4t+j4KBsnnbYTcgcaeyj9nDg=="/>
+                <enclosure url="https://github.com/imadhy/lean-releases/releases/download/v0.1.2/Lean247-218.delta" sparkle:deltaFrom="218" length="3825602" type="application/octet-stream" sparkle:deltaFromSparkleExecutableSize="976432" sparkle:deltaFromSparkleLocales="de,he,ar,el,ja,fa,uk" sparkle:edSignature="1T8M5xHn6fxcDBWjSl0P+FYWCwUwThIxOXLWemO4mF4dHKmDxQmyyxydLP9eaHc7Ggr3UOcdSA1vuBTmzCDwCQ=="/>
+            </sparkle:deltas>
+        </item>
+        <item>
             <title>0.1.1</title>
             <pubDate>Tue, 20 Oct 2026 15:43:37 +0200</pubDate>
             <sparkle:version>220</sparkle:version>
