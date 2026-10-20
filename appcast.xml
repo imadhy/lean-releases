@@ -3,6 +3,21 @@
     <channel>
         <title>Lean</title>
         <item>
+            <title>0.1.1</title>
+            <pubDate>Tue, 20 Oct 2026 15:43:37 +0200</pubDate>
+            <sparkle:version>220</sparkle:version>
+            <sparkle:shortVersionString>0.1.1</sparkle:shortVersionString>
+            <sparkle:minimumSystemVersion>26.0</sparkle:minimumSystemVersion>
+            <description sparkle:format="markdown"><![CDATA[## Mise à jour de test
+
+- Cette version vérifie que les mises à jour de Lean arrivent bien jusqu'à toi. Rien d'autre ne change.
+]]></description>
+            <enclosure url="https://github.com/imadhy/lean-releases/releases/download/v0.1.1/Lean-0.1.1.zip" length="9946264" type="application/octet-stream" sparkle:edSignature="uAubZMpdcGyglMYYbnIn4wOD6zxUm1r6g+cOt2pfRLFdtEZ4D/67tibBoLPGlPFSLL/mdh/vavrirtwTuGW8Cw=="/>
+            <sparkle:deltas>
+                <enclosure url="https://github.com/imadhy/lean-releases/releases/download/v0.1.1/Lean220-218.delta" sparkle:deltaFrom="218" length="8230" type="application/octet-stream" sparkle:deltaFromSparkleExecutableSize="976432" sparkle:deltaFromSparkleLocales="de,he,ar,el,ja,fa,uk" sparkle:edSignature="VsN7iouf4k/3b5oFWELvnC6+9qcZmBcWdAgK49tFNUnjQ/SdjP2TiOJ7nfgxuwTfY7OxX9b2iILWSFzIPz9bCQ=="/>
+            </sparkle:deltas>
+        </item>
+        <item>
             <title>0.1.0</title>
             <pubDate>Tue, 20 Oct 2026 15:26:10 +0200</pubDate>
             <sparkle:version>218</sparkle:version>
