@@ -3,6 +3,37 @@
     <channel>
         <title>Lean</title>
         <item>
+            <title>0.2.0</title>
+            <pubDate>Wed, 21 Oct 2026 08:23:47 +0000</pubDate>
+            <sparkle:version>285</sparkle:version>
+            <sparkle:shortVersionString>0.2.0</sparkle:shortVersionString>
+            <sparkle:minimumSystemVersion>26.0</sparkle:minimumSystemVersion>
+            <description sparkle:format="markdown"><![CDATA[## Nouveautés
+
+- **Menu Édition** : les sous-menus « Orthographe et grammaire » et « Substitutions », comme dans les autres apps du Mac.
+- **Alertes** : la suppression d'un Space, l'alerte après un plantage et le téléchargement depuis une fenêtre popup prennent le style des autres dialogues de Lean.
+
+## Corrections
+
+- **Mises à jour** : « Installer et relancer » marche aussi quand une feuille est ouverte dans Lean.
+- **Session** : si Lean est arrêtée par le système ou par un script au lieu d'être quittée, tes onglets sont enregistrés jusqu'au dernier changement.
+- **Onglets en veille** : un onglet qui joue du son, même dans une vidéo intégrée à la page, ou dont la vidéo est en image dans l'image, n'est plus mis en veille.
+- **Doublons** : dans Gmail et les applis du même genre, un message ouvert ne compte plus comme un doublon de ta boîte de réception. « Fermer les doublons » ne le ferme plus, et un lien venu d'une autre app vers ce message l'ouvre bien.
+- **Raccourcis** : un raccourci que tu as choisi n'est plus masqué par un raccourci que Lean ajoute ensuite, comme ⌘N pour une nouvelle fenêtre.
+- **Sauvegarde** :
+  - sans la case « Historique », elle n'emporte plus les pages précédentes de tes onglets ;
+  - ton choix « Vérifier l'orthographe lors de la saisie » part avec tes réglages.
+- **Import** : la fenêtre d'import ne se vide plus pendant qu'elle se ferme.
+- **VoiceOver** : les lignes de l'historique, la liste des identifiants, l'icône des pull requests et les téléchargements terminés s'activent comme des boutons.
+]]></description>
+            <enclosure url="https://github.com/imadhy/lean-releases/releases/download/v0.2.0/Lean-0.2.0.zip" length="9966706" type="application/octet-stream" sparkle:edSignature="c4YqQ4fx9KJFcoQKgr5wzWVhLNm2uISMET0ef9g+uH8Uq6zWDnuqQE5Q4aAi15LrvhSP2gjWvBQJ7IZ5BY5tCw=="/>
+            <sparkle:deltas>
+                <enclosure url="https://github.com/imadhy/lean-releases/releases/download/v0.2.0/Lean285-247.delta" sparkle:deltaFrom="247" length="1599758" type="application/octet-stream" sparkle:deltaFromSparkleExecutableSize="976432" sparkle:deltaFromSparkleLocales="de,he,ar,el,ja,fa,uk" sparkle:edSignature="5Hmy78dY7t1+MQX43sFwSUHGVy/zypy3jMG+yZNVz0QCNmdWXjf9cPAqJNcmCu4Q6TNq8G+ErYiwTQSCkD6YCg=="/>
+                <enclosure url="https://github.com/imadhy/lean-releases/releases/download/v0.2.0/Lean285-220.delta" sparkle:deltaFrom="220" length="3928686" type="application/octet-stream" sparkle:deltaFromSparkleExecutableSize="976432" sparkle:deltaFromSparkleLocales="de,he,ar,el,ja,fa,uk" sparkle:edSignature="iweh6QWDkXwWhw0UmRQxpwSKtnpoI1d8HQrb1sAmereM1u4VcyxYsLOWZ7Zo6D9XlcF9c0csjqal1gxpn0gPBw=="/>
+                <enclosure url="https://github.com/imadhy/lean-releases/releases/download/v0.2.0/Lean285-218.delta" sparkle:deltaFrom="218" length="3924698" type="application/octet-stream" sparkle:deltaFromSparkleExecutableSize="976432" sparkle:deltaFromSparkleLocales="de,he,ar,el,ja,fa,uk" sparkle:edSignature="zY/S/1LI8mCFUIhC819ta9XDHRGaZbTmcXtMlnc9jTuCIo6SoMMHHAIgnZpKtIQeym6UJQLp8HnBlE9XQt6rAQ=="/>
+            </sparkle:deltas>
+        </item>
+        <item>
             <title>0.1.2</title>
             <pubDate>Tue, 20 Oct 2026 16:51:19 +0000</pubDate>
             <sparkle:version>247</sparkle:version>
@@ -40,30 +71,6 @@
             <sparkle:deltas>
                 <enclosure url="https://github.com/imadhy/lean-releases/releases/download/v0.1.1/Lean220-218.delta" sparkle:deltaFrom="218" length="8230" type="application/octet-stream" sparkle:deltaFromSparkleExecutableSize="976432" sparkle:deltaFromSparkleLocales="de,he,ar,el,ja,fa,uk" sparkle:edSignature="VsN7iouf4k/3b5oFWELvnC6+9qcZmBcWdAgK49tFNUnjQ/SdjP2TiOJ7nfgxuwTfY7OxX9b2iILWSFzIPz9bCQ=="/>
             </sparkle:deltas>
-        </item>
-        <item>
-            <title>0.1.0</title>
-            <pubDate>Tue, 20 Oct 2026 15:26:10 +0200</pubDate>
-            <sparkle:version>218</sparkle:version>
-            <sparkle:shortVersionString>0.1.0</sparkle:shortVersionString>
-            <sparkle:minimumSystemVersion>26.0</sparkle:minimumSystemVersion>
-            <description sparkle:format="markdown"><![CDATA[## Première version distribuée
-
-Lean est un navigateur natif pour macOS 26, construit sur WebKit, le moteur de Safari.
-
-- **Spaces** : chacun a ses propres cookies, connexions et stockage. Tu peux ouvrir deux comptes du même site côte à côte.
-- **Blocage** des publicités et des traqueurs avant qu'ils ne chargent. Le bouclier de la barre d'adresse compte ce qui est bloqué et le coupe pour un site en un clic.
-- **Pull requests GitHub** dans la barre d'adresse et la barre latérale, avec le CLI `gh` que tu utilises déjà.
-- **Mots de passe** remplis par Lean, depuis son coffre ou depuis Bitwarden. Pour les afficher dans les Réglages, il faut Touch ID.
-- **Duo** : deux pages côte à côte, sur une seule ligne de la barre latérale.
-- **Sauvegarde chiffrée** dans le dossier de ton choix, et import depuis tes autres navigateurs.
-- **Mises à jour** : Lean te les propose ici dès qu'une nouvelle version sort.
-
-## Installer
-
-Ouvre `Lean.dmg` et glisse Lean dans Applications. Au premier lancement, macOS refuse d'ouvrir Lean, parce qu'elle ne vient pas d'un développeur vérifié par Apple : va dans Réglages Système › Confidentialité et sécurité, puis clique sur « Ouvrir quand même ».
-]]></description>
-            <enclosure url="https://github.com/imadhy/lean-releases/releases/download/v0.1.0/Lean-0.1.0.zip" length="9946262" type="application/octet-stream" sparkle:edSignature="d+UR6ybFokEcJqoVkeMLKGjaDiHz93pLst9o91+mLnbPaenyfjsXgbHOyawf4oI/M6l8ML5YgxjSPCLgbCzWBQ=="/>
         </item>
     </channel>
 </rss>
