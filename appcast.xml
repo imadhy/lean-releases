@@ -3,6 +3,37 @@
     <channel>
         <title>Lean</title>
         <item>
+            <title>0.3.0</title>
+            <pubDate>Wed, 21 Oct 2026 12:44:23 +0000</pubDate>
+            <sparkle:version>303</sparkle:version>
+            <sparkle:shortVersionString>0.3.0</sparkle:shortVersionString>
+            <sparkle:minimumSystemVersion>26.0</sparkle:minimumSystemVersion>
+            <description sparkle:format="markdown"><![CDATA[## Nouveautés
+
+- **Thème des Spaces** : dans « Modifier le Space », choisis le thème du Space (Auto, Clair ou Sombre), et passe en mode « Sur mesure » pour composer le dégradé de fond de la fenêtre avec un cercle chromatique et une harmonie (analogue, monochrome, complémentaire, complémentaire divisé, triadique).
+- **Modifier un Space** : chaque changement (nom, couleur, icône, pull requests GitHub) s'applique et s'enregistre tout de suite, sans bouton « Enregistrer ». Un clic à côté ou Échap ferme la fenêtre.
+- **Changer de Space** : un défilement horizontal dans la barre latérale, au trackpad ou à la souris, passe au Space précédent ou suivant.
+- **Onglets épinglés** : les tuiles sont plus petites, cinq par ligne, avec des icônes plus nettes. Un réglage « Taille des épinglés » (Petite, Moyenne, Grande) se trouve dans la section « Barre latérale » des Réglages.
+- **Fenêtres** : les boutons fermer, réduire et agrandir restent gris tant que le pointeur ne passe pas dessus.
+
+## Corrections
+
+- **Barre du haut** :
+  - un clic sur un bouton ou sur l'adresse ne déplace plus la fenêtre quand la souris bouge un peu ;
+  - un double-clic dans une zone vide agrandit la fenêtre, ou suit ton réglage « Double-cliquer sur la barre de titre ».
+- **Plein écran** : la barre latérale et le titre « Lean » gardent leur place, alignés sur la barre de navigation.
+- **Onglets en veille** : un onglet dont la page est bloquée par un script sans fin se met enfin en veille, comme les autres, et cesse d'occuper le processeur.
+- **GitHub** : une image collée dans un commentaire s'envoie et son lien remplace bien le texte « Uploading… ».
+- **Spaces** : la fenêtre « Modifier le Space » pointe vers le Space modifié, et non plus vers le bouton « + ».
+]]></description>
+            <enclosure url="https://github.com/imadhy/lean-releases/releases/download/v0.3.0/Lean-0.3.0.zip" length="10131713" type="application/octet-stream" sparkle:edSignature="TJzZKqE4nF6DgfLqpuZwaeyrnGTe3vMj8lh9esryvJpGaxf+fgKy60m6wpcp8QAtqIkQvHl0858PJYTRWHs3Dw=="/>
+            <sparkle:deltas>
+                <enclosure url="https://github.com/imadhy/lean-releases/releases/download/v0.3.0/Lean303-285.delta" sparkle:deltaFrom="285" length="1728434" type="application/octet-stream" sparkle:deltaFromSparkleExecutableSize="976432" sparkle:deltaFromSparkleLocales="de,he,ar,el,ja,fa,uk" sparkle:edSignature="rurC8/ZjUm9XryvGS6a2mloA8EImkDhfjePF55cqSHtm44lTHeL06JJTOKATWAsmnw8w9cYQl+ur1SeRhLDFDA=="/>
+                <enclosure url="https://github.com/imadhy/lean-releases/releases/download/v0.3.0/Lean303-247.delta" sparkle:deltaFrom="247" length="2027206" type="application/octet-stream" sparkle:deltaFromSparkleExecutableSize="976432" sparkle:deltaFromSparkleLocales="de,he,ar,el,ja,fa,uk" sparkle:edSignature="XPNcRL/U6SrfBREu6PXGae3OIpXA9vlWCL1q1Y2DB5TL5kM2D4qEY7YcAapeY93G/m3F7RXVBWC6kecjfdYkDA=="/>
+                <enclosure url="https://github.com/imadhy/lean-releases/releases/download/v0.3.0/Lean303-220.delta" sparkle:deltaFrom="220" length="4126658" type="application/octet-stream" sparkle:deltaFromSparkleExecutableSize="976432" sparkle:deltaFromSparkleLocales="de,he,ar,el,ja,fa,uk" sparkle:edSignature="GXJAB+ZJQt2PBv/NLwkVjajjbdFKrCwCIml+SGCskuRy/h0QFTJjTjvq4wy1U0d6sMxTxndmnpRRpylQoishDw=="/>
+            </sparkle:deltas>
+        </item>
+        <item>
             <title>0.2.0</title>
             <pubDate>Wed, 21 Oct 2026 08:23:47 +0000</pubDate>
             <sparkle:version>285</sparkle:version>
@@ -55,21 +86,6 @@
             <sparkle:deltas>
                 <enclosure url="https://github.com/imadhy/lean-releases/releases/download/v0.1.2/Lean247-220.delta" sparkle:deltaFrom="220" length="3826682" type="application/octet-stream" sparkle:deltaFromSparkleExecutableSize="976432" sparkle:deltaFromSparkleLocales="de,he,ar,el,ja,fa,uk" sparkle:edSignature="zjSiifn3HQGM10RRBs0eP1vYbRYZ00BGl72jn4GYKs0SCACCkedpAMwW3RXlJJ4t+j4KBsnnbYTcgcaeyj9nDg=="/>
                 <enclosure url="https://github.com/imadhy/lean-releases/releases/download/v0.1.2/Lean247-218.delta" sparkle:deltaFrom="218" length="3825602" type="application/octet-stream" sparkle:deltaFromSparkleExecutableSize="976432" sparkle:deltaFromSparkleLocales="de,he,ar,el,ja,fa,uk" sparkle:edSignature="1T8M5xHn6fxcDBWjSl0P+FYWCwUwThIxOXLWemO4mF4dHKmDxQmyyxydLP9eaHc7Ggr3UOcdSA1vuBTmzCDwCQ=="/>
-            </sparkle:deltas>
-        </item>
-        <item>
-            <title>0.1.1</title>
-            <pubDate>Tue, 20 Oct 2026 15:43:37 +0200</pubDate>
-            <sparkle:version>220</sparkle:version>
-            <sparkle:shortVersionString>0.1.1</sparkle:shortVersionString>
-            <sparkle:minimumSystemVersion>26.0</sparkle:minimumSystemVersion>
-            <description sparkle:format="markdown"><![CDATA[## Mise à jour de test
-
-- Cette version vérifie que les mises à jour de Lean arrivent bien jusqu'à toi. Rien d'autre ne change.
-]]></description>
-            <enclosure url="https://github.com/imadhy/lean-releases/releases/download/v0.1.1/Lean-0.1.1.zip" length="9946264" type="application/octet-stream" sparkle:edSignature="uAubZMpdcGyglMYYbnIn4wOD6zxUm1r6g+cOt2pfRLFdtEZ4D/67tibBoLPGlPFSLL/mdh/vavrirtwTuGW8Cw=="/>
-            <sparkle:deltas>
-                <enclosure url="https://github.com/imadhy/lean-releases/releases/download/v0.1.1/Lean220-218.delta" sparkle:deltaFrom="218" length="8230" type="application/octet-stream" sparkle:deltaFromSparkleExecutableSize="976432" sparkle:deltaFromSparkleLocales="de,he,ar,el,ja,fa,uk" sparkle:edSignature="VsN7iouf4k/3b5oFWELvnC6+9qcZmBcWdAgK49tFNUnjQ/SdjP2TiOJ7nfgxuwTfY7OxX9b2iILWSFzIPz9bCQ=="/>
             </sparkle:deltas>
         </item>
     </channel>
