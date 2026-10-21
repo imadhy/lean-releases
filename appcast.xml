@@ -3,6 +3,43 @@
     <channel>
         <title>Lean</title>
         <item>
+            <title>0.4.1</title>
+            <pubDate>Wed, 21 Oct 2026 19:31:31 +0000</pubDate>
+            <sparkle:version>326</sparkle:version>
+            <sparkle:shortVersionString>0.4.1</sparkle:shortVersionString>
+            <sparkle:minimumSystemVersion>26.0</sparkle:minimumSystemVersion>
+            <description sparkle:format="markdown"><![CDATA[## Nouveautés
+
+- **Dossiers d'épinglés** : range tes onglets épinglés dans des dossiers, avec un titre et un emoji (clic droit › « Nouveau dossier… », « Ajouter au dossier »). Un favori de dossier garde son adresse principale : un double-clic ou « Revenir à l'URL épinglée » t'y ramène. Sous les dossiers, un trait sépare les autres onglets ; survole-le pour faire apparaître « Effacer », qui les ferme tous (« Rouvrir l'onglet fermé » les rend d'un coup).
+- **Barre latérale** : le bouton d'affichage et ⌘S passent de la barre complète aux icônes, puis à la barre masquée, et reviennent à la barre complète. Masquée, la page prend toute la largeur et le bouton reste à côté de « Lean ».
+- **Barre en icônes** : survoler un onglet déroule aussitôt son titre au bord de la page, sans attendre l'infobulle.
+- **Onglets et fenêtres** : glisse un onglet hors de Lean pour l'ouvrir dans une nouvelle fenêtre, ou lâche-le sur une autre fenêtre de Lean pour l'y ranger, à l'endroit visé. La page suit telle quelle, sans se recharger, sauf si elle change de Space isolé.
+- **Liens venus d'autres apps** : dans Réglages › Liens, envoie les liens ouverts depuis une autre app vers le Space de ton choix, selon l'app d'où ils viennent, leur site ou les deux (la règle la plus précise l'emporte). Choisis aussi le Space où vont les liens sans règle.
+- **Menu du Dock** : « Nouvelle fenêtre » et « Nouvelle fenêtre de navigation privée ».
+- **Historique de l'onglet** : un bouton horloge, à côté de « ← » et « → », liste les pages de l'onglet et t'y ramène d'un clic.
+- **JSON lisible** : une réponse JSON s'affiche indentée, colorée et repliable, avec « Formaté » / « Brut », « Tout replier », « Tout déplier » et « Copier ».
+- **Clic du milieu** : un lien cliqué avec le bouton du milieu s'ouvre dans un nouvel onglet en arrière-plan.
+- **Images** : le clic droit sur une image propose « Copier l'adresse de l'image ».
+- **Barre d'adresse** : au repos, elle montre aussi la requête de l'adresse (par exemple « watch?v=… » sur YouTube), pour reconnaître la page.
+
+## Corrections
+
+- **Barre d'adresse** : un clic n'importe où dans sa largeur passe en édition, même quand l'adresse est courte.
+- **Onglets épinglés** : un épinglé « Garder éveillé » est chargé dès le lancement de Lean, et dès que tu coches l'option.
+- **Apps externes** : un site pour lequel tu as coché « Toujours autoriser » (Zoom, par exemple) ouvre son app sans redemander, une fois par action de ta part.
+- **Spaces** : avec plusieurs Spaces, leurs noms en bas de la barre latérale ne passent plus sous les boutons voisins ; la liste défile et suit le Space actif.
+- **Recherche (⌘L / ⌘T)** : le contour et l'ombre du panneau ne sont plus coupés sur les bords.
+- **Barre en icônes** : le cadre du clic droit entoure exactement l'onglet visé.
+- **Barre latérale** : un peu plus d'espace entre le nom du Space et le premier onglet.
+]]></description>
+            <enclosure url="https://github.com/imadhy/lean-releases/releases/download/v0.4.1/Lean-0.4.1.zip" length="10682800" type="application/octet-stream" sparkle:edSignature="qk0iy+uGZMDTofGfwPGYLr4ziPYdEKlJAS3hLzkabdhMUH0+iqh18QuHHR8gVBtxKHENbRX1S/1gYbhLUz2NBg=="/>
+            <sparkle:deltas>
+                <enclosure url="https://github.com/imadhy/lean-releases/releases/download/v0.4.1/Lean326-303.delta" sparkle:deltaFrom="303" length="2342090" type="application/octet-stream" sparkle:deltaFromSparkleExecutableSize="976432" sparkle:deltaFromSparkleLocales="de,he,ar,el,ja,fa,uk" sparkle:edSignature="xDcHWAjAcgVK0nunvjORR3IYMEmcUJhk+ISg/+J6PhPsYN75D6zU2ATVPJuy3ZAbDqr/qQddCYzQJceDVwQ/BQ=="/>
+                <enclosure url="https://github.com/imadhy/lean-releases/releases/download/v0.4.1/Lean326-285.delta" sparkle:deltaFrom="285" length="2552118" type="application/octet-stream" sparkle:deltaFromSparkleExecutableSize="976432" sparkle:deltaFromSparkleLocales="de,he,ar,el,ja,fa,uk" sparkle:edSignature="959O7lfIMsT9rYBlmUnHbI4X4TB2T+V17A3fnirLhM/KovHivnb6gYd4pj7M0rttYhsvvEhZsFLoXiltgTNOAw=="/>
+                <enclosure url="https://github.com/imadhy/lean-releases/releases/download/v0.4.1/Lean326-247.delta" sparkle:deltaFrom="247" length="2755954" type="application/octet-stream" sparkle:deltaFromSparkleExecutableSize="976432" sparkle:deltaFromSparkleLocales="de,he,ar,el,ja,fa,uk" sparkle:edSignature="fOaxNZy9lA8gPLCl27qClxU7+5DNUwLayZTQs0jgRh+Rc5ZyUERhR8u28tXPQwFRwehZxq3MA8mgcdVoC54eAg=="/>
+            </sparkle:deltas>
+        </item>
+        <item>
             <title>0.3.0</title>
             <pubDate>Wed, 21 Oct 2026 12:44:23 +0000</pubDate>
             <sparkle:version>303</sparkle:version>
@@ -62,30 +99,6 @@
                 <enclosure url="https://github.com/imadhy/lean-releases/releases/download/v0.2.0/Lean285-247.delta" sparkle:deltaFrom="247" length="1599758" type="application/octet-stream" sparkle:deltaFromSparkleExecutableSize="976432" sparkle:deltaFromSparkleLocales="de,he,ar,el,ja,fa,uk" sparkle:edSignature="5Hmy78dY7t1+MQX43sFwSUHGVy/zypy3jMG+yZNVz0QCNmdWXjf9cPAqJNcmCu4Q6TNq8G+ErYiwTQSCkD6YCg=="/>
                 <enclosure url="https://github.com/imadhy/lean-releases/releases/download/v0.2.0/Lean285-220.delta" sparkle:deltaFrom="220" length="3928686" type="application/octet-stream" sparkle:deltaFromSparkleExecutableSize="976432" sparkle:deltaFromSparkleLocales="de,he,ar,el,ja,fa,uk" sparkle:edSignature="iweh6QWDkXwWhw0UmRQxpwSKtnpoI1d8HQrb1sAmereM1u4VcyxYsLOWZ7Zo6D9XlcF9c0csjqal1gxpn0gPBw=="/>
                 <enclosure url="https://github.com/imadhy/lean-releases/releases/download/v0.2.0/Lean285-218.delta" sparkle:deltaFrom="218" length="3924698" type="application/octet-stream" sparkle:deltaFromSparkleExecutableSize="976432" sparkle:deltaFromSparkleLocales="de,he,ar,el,ja,fa,uk" sparkle:edSignature="zY/S/1LI8mCFUIhC819ta9XDHRGaZbTmcXtMlnc9jTuCIo6SoMMHHAIgnZpKtIQeym6UJQLp8HnBlE9XQt6rAQ=="/>
-            </sparkle:deltas>
-        </item>
-        <item>
-            <title>0.1.2</title>
-            <pubDate>Tue, 20 Oct 2026 16:51:19 +0000</pubDate>
-            <sparkle:version>247</sparkle:version>
-            <sparkle:shortVersionString>0.1.2</sparkle:shortVersionString>
-            <sparkle:minimumSystemVersion>26.0</sparkle:minimumSystemVersion>
-            <description sparkle:format="markdown"><![CDATA[## Corrections
-
-- **Impression** : le bouton « Imprimer » d'une page (billet, facture, reçu) ouvre maintenant la feuille d'impression. Il ne faisait rien.
-- **Fenêtres popup** : une popup se redimensionne et se déplace quand sa page le demande, sans sortir de l'écran. Son menu contextuel est celui des onglets : « Ouvrir le lien dans un nouvel onglet », « Ouvrir l'image dans un nouvel onglet » et « Rechercher avec » ton moteur de recherche.
-- **Fiche du site** : le cadenas décrit toujours la page affichée, même pendant le chargement d'une autre adresse. Un avertissement de certificat que tu as passé ne vaut plus que pour ce serveur et ce certificat.
-- **Spaces** : l'historique, les cookies et les connexions d'un Space isolé ne sont plus effacés que si tu supprimes ce Space. Avant, une session illisible au lancement pouvait les faire perdre.
-- **Téléchargements** : « Réessayer » reprend un téléchargement avec les cookies de son Space, jamais avec ceux d'un autre. Le bouton reste grisé tant qu'aucune page de ce Space n'est ouverte.
-- **Mots de passe** :
-  - Lean reconnaît les connexions des sites faits de composants web (Shadow DOM), même sans formulaire.
-  - Lean ne propose plus de mot de passe fort quand tu as déjà tapé le tien : il l'écrasait.
-  - Un clic sur la liste des identifiants n'est plus ignoré quand la page remet le focus sur son champ.
-]]></description>
-            <enclosure url="https://github.com/imadhy/lean-releases/releases/download/v0.1.2/Lean-0.1.2.zip" length="9901952" type="application/octet-stream" sparkle:edSignature="Fq37Lgg9yU80Ryz2iUFdw8I/P/WQrx2MAGKt9n32mgv4GNdHzdLG/xQjhDWK7+ds1eoEJ9E362qlWbqdN2+rDw=="/>
-            <sparkle:deltas>
-                <enclosure url="https://github.com/imadhy/lean-releases/releases/download/v0.1.2/Lean247-220.delta" sparkle:deltaFrom="220" length="3826682" type="application/octet-stream" sparkle:deltaFromSparkleExecutableSize="976432" sparkle:deltaFromSparkleLocales="de,he,ar,el,ja,fa,uk" sparkle:edSignature="zjSiifn3HQGM10RRBs0eP1vYbRYZ00BGl72jn4GYKs0SCACCkedpAMwW3RXlJJ4t+j4KBsnnbYTcgcaeyj9nDg=="/>
-                <enclosure url="https://github.com/imadhy/lean-releases/releases/download/v0.1.2/Lean247-218.delta" sparkle:deltaFrom="218" length="3825602" type="application/octet-stream" sparkle:deltaFromSparkleExecutableSize="976432" sparkle:deltaFromSparkleLocales="de,he,ar,el,ja,fa,uk" sparkle:edSignature="1T8M5xHn6fxcDBWjSl0P+FYWCwUwThIxOXLWemO4mF4dHKmDxQmyyxydLP9eaHc7Ggr3UOcdSA1vuBTmzCDwCQ=="/>
             </sparkle:deltas>
         </item>
     </channel>
