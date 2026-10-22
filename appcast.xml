@@ -3,6 +3,28 @@
     <channel>
         <title>Lean</title>
         <item>
+            <title>0.5.0</title>
+            <pubDate>Thu, 22 Oct 2026 14:40:33 +0000</pubDate>
+            <sparkle:version>331</sparkle:version>
+            <sparkle:shortVersionString>0.5.0</sparkle:shortVersionString>
+            <sparkle:minimumSystemVersion>26.0</sparkle:minimumSystemVersion>
+            <description sparkle:format="markdown"><![CDATA[## Nouveautés
+
+- **Popups bloquées** : quand Lean bloque une popup, une encoche « Popup bloquée » te propose de l'ouvrir quand même. Elle s'ouvre alors comme si tu venais de cliquer, et une connexion en popup peut aller jusqu'au bout.
+- **Popups par site** : coche « Toujours autoriser pour ce site » dans l'encoche, ou choisis Autoriser à la ligne « Popups » des Autorisations du site. Refuser bloque les popups du site sans rien afficher.
+
+## Corrections
+
+- **Connexion en popup** : une popup ouverte jusqu'à 5 secondes après ton clic n'est plus bloquée, comme dans Chrome. Avant, Lean la bloquait au-delà d'une seconde environ, ce qui empêchait de se connecter sur les sites qui interrogent leur serveur avant d'ouvrir la fenêtre.
+]]></description>
+            <enclosure url="https://github.com/imadhy/lean-releases/releases/download/v0.5.0/Lean-0.5.0.zip" length="10747792" type="application/octet-stream" sparkle:edSignature="RYkvY9f6dibnxxg4bb3lKcpyMVf+A0//0x8BXRRjS+GrwAiGrv7eiMi2rO+xRMdNv2Yh7ZYeeWOf8f0rsfSDBg=="/>
+            <sparkle:deltas>
+                <enclosure url="https://github.com/imadhy/lean-releases/releases/download/v0.5.0/Lean331-329.delta" sparkle:deltaFrom="329" length="1321886" type="application/octet-stream" sparkle:deltaFromSparkleExecutableSize="976432" sparkle:deltaFromSparkleLocales="de,he,ar,el,ja,fa,uk" sparkle:edSignature="T0ojyuhaDMofCbfvUM+LH/smM2LfHghqEAHVuN9JtsGnJcDIR5VJc5X/FbrBD8CYG9NBnAuppD8XfIjG4OMoAQ=="/>
+                <enclosure url="https://github.com/imadhy/lean-releases/releases/download/v0.5.0/Lean331-326.delta" sparkle:deltaFrom="326" length="1430254" type="application/octet-stream" sparkle:deltaFromSparkleExecutableSize="976432" sparkle:deltaFromSparkleLocales="de,he,ar,el,ja,fa,uk" sparkle:edSignature="BuosDbvi5zBummZQkkqkfjfT6oczsMs1MfX+zYqCluWHmZDo91F92tkh7i4CmUguCYt9M/aKStHFW3Ug4zwpCA=="/>
+                <enclosure url="https://github.com/imadhy/lean-releases/releases/download/v0.5.0/Lean331-303.delta" sparkle:deltaFrom="303" length="2432930" type="application/octet-stream" sparkle:deltaFromSparkleExecutableSize="976432" sparkle:deltaFromSparkleLocales="de,he,ar,el,ja,fa,uk" sparkle:edSignature="x8SEvbSC1BIvD1QIY5jW8o90ga/yzjPfKHeHCraKe8o0bg/FBc27U8TH5RWvMBH+L+wkFh1rB4EKQLIYxihXBQ=="/>
+            </sparkle:deltas>
+        </item>
+        <item>
             <title>0.4.2</title>
             <pubDate>Thu, 22 Oct 2026 08:54:34 +0000</pubDate>
             <sparkle:version>329</sparkle:version>
@@ -55,37 +77,6 @@
                 <enclosure url="https://github.com/imadhy/lean-releases/releases/download/v0.4.1/Lean326-303.delta" sparkle:deltaFrom="303" length="2342090" type="application/octet-stream" sparkle:deltaFromSparkleExecutableSize="976432" sparkle:deltaFromSparkleLocales="de,he,ar,el,ja,fa,uk" sparkle:edSignature="xDcHWAjAcgVK0nunvjORR3IYMEmcUJhk+ISg/+J6PhPsYN75D6zU2ATVPJuy3ZAbDqr/qQddCYzQJceDVwQ/BQ=="/>
                 <enclosure url="https://github.com/imadhy/lean-releases/releases/download/v0.4.1/Lean326-285.delta" sparkle:deltaFrom="285" length="2552118" type="application/octet-stream" sparkle:deltaFromSparkleExecutableSize="976432" sparkle:deltaFromSparkleLocales="de,he,ar,el,ja,fa,uk" sparkle:edSignature="959O7lfIMsT9rYBlmUnHbI4X4TB2T+V17A3fnirLhM/KovHivnb6gYd4pj7M0rttYhsvvEhZsFLoXiltgTNOAw=="/>
                 <enclosure url="https://github.com/imadhy/lean-releases/releases/download/v0.4.1/Lean326-247.delta" sparkle:deltaFrom="247" length="2755954" type="application/octet-stream" sparkle:deltaFromSparkleExecutableSize="976432" sparkle:deltaFromSparkleLocales="de,he,ar,el,ja,fa,uk" sparkle:edSignature="fOaxNZy9lA8gPLCl27qClxU7+5DNUwLayZTQs0jgRh+Rc5ZyUERhR8u28tXPQwFRwehZxq3MA8mgcdVoC54eAg=="/>
-            </sparkle:deltas>
-        </item>
-        <item>
-            <title>0.3.0</title>
-            <pubDate>Wed, 21 Oct 2026 12:44:23 +0000</pubDate>
-            <sparkle:version>303</sparkle:version>
-            <sparkle:shortVersionString>0.3.0</sparkle:shortVersionString>
-            <sparkle:minimumSystemVersion>26.0</sparkle:minimumSystemVersion>
-            <description sparkle:format="markdown"><![CDATA[## Nouveautés
-
-- **Thème des Spaces** : dans « Modifier le Space », choisis le thème du Space (Auto, Clair ou Sombre), et passe en mode « Sur mesure » pour composer le dégradé de fond de la fenêtre avec un cercle chromatique et une harmonie (analogue, monochrome, complémentaire, complémentaire divisé, triadique).
-- **Modifier un Space** : chaque changement (nom, couleur, icône, pull requests GitHub) s'applique et s'enregistre tout de suite, sans bouton « Enregistrer ». Un clic à côté ou Échap ferme la fenêtre.
-- **Changer de Space** : un défilement horizontal dans la barre latérale, au trackpad ou à la souris, passe au Space précédent ou suivant.
-- **Onglets épinglés** : les tuiles sont plus petites, cinq par ligne, avec des icônes plus nettes. Un réglage « Taille des épinglés » (Petite, Moyenne, Grande) se trouve dans la section « Barre latérale » des Réglages.
-- **Fenêtres** : les boutons fermer, réduire et agrandir restent gris tant que le pointeur ne passe pas dessus.
-
-## Corrections
-
-- **Barre du haut** :
-  - un clic sur un bouton ou sur l'adresse ne déplace plus la fenêtre quand la souris bouge un peu ;
-  - un double-clic dans une zone vide agrandit la fenêtre, ou suit ton réglage « Double-cliquer sur la barre de titre ».
-- **Plein écran** : la barre latérale et le titre « Lean » gardent leur place, alignés sur la barre de navigation.
-- **Onglets en veille** : un onglet dont la page est bloquée par un script sans fin se met enfin en veille, comme les autres, et cesse d'occuper le processeur.
-- **GitHub** : une image collée dans un commentaire s'envoie et son lien remplace bien le texte « Uploading… ».
-- **Spaces** : la fenêtre « Modifier le Space » pointe vers le Space modifié, et non plus vers le bouton « + ».
-]]></description>
-            <enclosure url="https://github.com/imadhy/lean-releases/releases/download/v0.3.0/Lean-0.3.0.zip" length="10131713" type="application/octet-stream" sparkle:edSignature="TJzZKqE4nF6DgfLqpuZwaeyrnGTe3vMj8lh9esryvJpGaxf+fgKy60m6wpcp8QAtqIkQvHl0858PJYTRWHs3Dw=="/>
-            <sparkle:deltas>
-                <enclosure url="https://github.com/imadhy/lean-releases/releases/download/v0.3.0/Lean303-285.delta" sparkle:deltaFrom="285" length="1728434" type="application/octet-stream" sparkle:deltaFromSparkleExecutableSize="976432" sparkle:deltaFromSparkleLocales="de,he,ar,el,ja,fa,uk" sparkle:edSignature="rurC8/ZjUm9XryvGS6a2mloA8EImkDhfjePF55cqSHtm44lTHeL06JJTOKATWAsmnw8w9cYQl+ur1SeRhLDFDA=="/>
-                <enclosure url="https://github.com/imadhy/lean-releases/releases/download/v0.3.0/Lean303-247.delta" sparkle:deltaFrom="247" length="2027206" type="application/octet-stream" sparkle:deltaFromSparkleExecutableSize="976432" sparkle:deltaFromSparkleLocales="de,he,ar,el,ja,fa,uk" sparkle:edSignature="XPNcRL/U6SrfBREu6PXGae3OIpXA9vlWCL1q1Y2DB5TL5kM2D4qEY7YcAapeY93G/m3F7RXVBWC6kecjfdYkDA=="/>
-                <enclosure url="https://github.com/imadhy/lean-releases/releases/download/v0.3.0/Lean303-220.delta" sparkle:deltaFrom="220" length="4126658" type="application/octet-stream" sparkle:deltaFromSparkleExecutableSize="976432" sparkle:deltaFromSparkleLocales="de,he,ar,el,ja,fa,uk" sparkle:edSignature="GXJAB+ZJQt2PBv/NLwkVjajjbdFKrCwCIml+SGCskuRy/h0QFTJjTjvq4wy1U0d6sMxTxndmnpRRpylQoishDw=="/>
             </sparkle:deltas>
         </item>
     </channel>
