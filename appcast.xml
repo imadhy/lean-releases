@@ -3,6 +3,24 @@
     <channel>
         <title>Lean</title>
         <item>
+            <title>0.4.2</title>
+            <pubDate>Thu, 22 Oct 2026 08:54:34 +0000</pubDate>
+            <sparkle:version>329</sparkle:version>
+            <sparkle:shortVersionString>0.4.2</sparkle:shortVersionString>
+            <sparkle:minimumSystemVersion>26.0</sparkle:minimumSystemVersion>
+            <description sparkle:format="markdown"><![CDATA[## Corrections
+
+- **Sauvegarde** : changer le dossier des sauvegardes dans les Réglages ne fait plus quitter Lean après Touch ID. Le même problème touchait l'activation des sauvegardes, ainsi que l'import et l'export des mots de passe en CSV.
+- **Barre latérale** : cliquer l'onglet déjà ouvert ne laisse plus de fond coloré sous lui, qui virait à l'orange quand tu quittais la fenêtre.
+]]></description>
+            <enclosure url="https://github.com/imadhy/lean-releases/releases/download/v0.4.2/Lean-0.4.2.zip" length="10694513" type="application/octet-stream" sparkle:edSignature="4u3uaKmiC+mzcF4rHylL7x3Bc+IMoQ51xF+60VTuE0C63MOnmm2p4nE3JtfLwGkzV3WJUYgyDY3kTr5kBfFeCA=="/>
+            <sparkle:deltas>
+                <enclosure url="https://github.com/imadhy/lean-releases/releases/download/v0.4.2/Lean329-326.delta" sparkle:deltaFrom="326" length="1035198" type="application/octet-stream" sparkle:deltaFromSparkleExecutableSize="976432" sparkle:deltaFromSparkleLocales="de,he,ar,el,ja,fa,uk" sparkle:edSignature="c1bvc0K7lOkRcwjuU5pP5CL5XDGXo2rms8ESXgEkaxHYC43i7HQPfbUmwWrc90Xq4c+iA03XKp6HP9zTK3zzBg=="/>
+                <enclosure url="https://github.com/imadhy/lean-releases/releases/download/v0.4.2/Lean329-303.delta" sparkle:deltaFrom="303" length="2358210" type="application/octet-stream" sparkle:deltaFromSparkleExecutableSize="976432" sparkle:deltaFromSparkleLocales="de,he,ar,el,ja,fa,uk" sparkle:edSignature="1Ca/XtS24b4HMDIxaBskA4pRUwqQDqToenAfdzNwhBZBlgFYChkMby7UxnD+1xyh7lW8C+FYkaUuDhL4UyzGCA=="/>
+                <enclosure url="https://github.com/imadhy/lean-releases/releases/download/v0.4.2/Lean329-285.delta" sparkle:deltaFrom="285" length="2545670" type="application/octet-stream" sparkle:deltaFromSparkleExecutableSize="976432" sparkle:deltaFromSparkleLocales="de,he,ar,el,ja,fa,uk" sparkle:edSignature="5B77s16mxES1G4ag3ofj4GDlLUAT61ENSsKgVFLUlsGo9PXMIsM8B/4dgatT7brXNrzhTOOBgZGFDhkNO0aiDg=="/>
+            </sparkle:deltas>
+        </item>
+        <item>
             <title>0.4.1</title>
             <pubDate>Wed, 21 Oct 2026 19:31:31 +0000</pubDate>
             <sparkle:version>326</sparkle:version>
@@ -68,37 +86,6 @@
                 <enclosure url="https://github.com/imadhy/lean-releases/releases/download/v0.3.0/Lean303-285.delta" sparkle:deltaFrom="285" length="1728434" type="application/octet-stream" sparkle:deltaFromSparkleExecutableSize="976432" sparkle:deltaFromSparkleLocales="de,he,ar,el,ja,fa,uk" sparkle:edSignature="rurC8/ZjUm9XryvGS6a2mloA8EImkDhfjePF55cqSHtm44lTHeL06JJTOKATWAsmnw8w9cYQl+ur1SeRhLDFDA=="/>
                 <enclosure url="https://github.com/imadhy/lean-releases/releases/download/v0.3.0/Lean303-247.delta" sparkle:deltaFrom="247" length="2027206" type="application/octet-stream" sparkle:deltaFromSparkleExecutableSize="976432" sparkle:deltaFromSparkleLocales="de,he,ar,el,ja,fa,uk" sparkle:edSignature="XPNcRL/U6SrfBREu6PXGae3OIpXA9vlWCL1q1Y2DB5TL5kM2D4qEY7YcAapeY93G/m3F7RXVBWC6kecjfdYkDA=="/>
                 <enclosure url="https://github.com/imadhy/lean-releases/releases/download/v0.3.0/Lean303-220.delta" sparkle:deltaFrom="220" length="4126658" type="application/octet-stream" sparkle:deltaFromSparkleExecutableSize="976432" sparkle:deltaFromSparkleLocales="de,he,ar,el,ja,fa,uk" sparkle:edSignature="GXJAB+ZJQt2PBv/NLwkVjajjbdFKrCwCIml+SGCskuRy/h0QFTJjTjvq4wy1U0d6sMxTxndmnpRRpylQoishDw=="/>
-            </sparkle:deltas>
-        </item>
-        <item>
-            <title>0.2.0</title>
-            <pubDate>Wed, 21 Oct 2026 08:23:47 +0000</pubDate>
-            <sparkle:version>285</sparkle:version>
-            <sparkle:shortVersionString>0.2.0</sparkle:shortVersionString>
-            <sparkle:minimumSystemVersion>26.0</sparkle:minimumSystemVersion>
-            <description sparkle:format="markdown"><![CDATA[## Nouveautés
-
-- **Menu Édition** : les sous-menus « Orthographe et grammaire » et « Substitutions », comme dans les autres apps du Mac.
-- **Alertes** : la suppression d'un Space, l'alerte après un plantage et le téléchargement depuis une fenêtre popup prennent le style des autres dialogues de Lean.
-
-## Corrections
-
-- **Mises à jour** : « Installer et relancer » marche aussi quand une feuille est ouverte dans Lean.
-- **Session** : si Lean est arrêtée par le système ou par un script au lieu d'être quittée, tes onglets sont enregistrés jusqu'au dernier changement.
-- **Onglets en veille** : un onglet qui joue du son, même dans une vidéo intégrée à la page, ou dont la vidéo est en image dans l'image, n'est plus mis en veille.
-- **Doublons** : dans Gmail et les applis du même genre, un message ouvert ne compte plus comme un doublon de ta boîte de réception. « Fermer les doublons » ne le ferme plus, et un lien venu d'une autre app vers ce message l'ouvre bien.
-- **Raccourcis** : un raccourci que tu as choisi n'est plus masqué par un raccourci que Lean ajoute ensuite, comme ⌘N pour une nouvelle fenêtre.
-- **Sauvegarde** :
-  - sans la case « Historique », elle n'emporte plus les pages précédentes de tes onglets ;
-  - ton choix « Vérifier l'orthographe lors de la saisie » part avec tes réglages.
-- **Import** : la fenêtre d'import ne se vide plus pendant qu'elle se ferme.
-- **VoiceOver** : les lignes de l'historique, la liste des identifiants, l'icône des pull requests et les téléchargements terminés s'activent comme des boutons.
-]]></description>
-            <enclosure url="https://github.com/imadhy/lean-releases/releases/download/v0.2.0/Lean-0.2.0.zip" length="9966706" type="application/octet-stream" sparkle:edSignature="c4YqQ4fx9KJFcoQKgr5wzWVhLNm2uISMET0ef9g+uH8Uq6zWDnuqQE5Q4aAi15LrvhSP2gjWvBQJ7IZ5BY5tCw=="/>
-            <sparkle:deltas>
-                <enclosure url="https://github.com/imadhy/lean-releases/releases/download/v0.2.0/Lean285-247.delta" sparkle:deltaFrom="247" length="1599758" type="application/octet-stream" sparkle:deltaFromSparkleExecutableSize="976432" sparkle:deltaFromSparkleLocales="de,he,ar,el,ja,fa,uk" sparkle:edSignature="5Hmy78dY7t1+MQX43sFwSUHGVy/zypy3jMG+yZNVz0QCNmdWXjf9cPAqJNcmCu4Q6TNq8G+ErYiwTQSCkD6YCg=="/>
-                <enclosure url="https://github.com/imadhy/lean-releases/releases/download/v0.2.0/Lean285-220.delta" sparkle:deltaFrom="220" length="3928686" type="application/octet-stream" sparkle:deltaFromSparkleExecutableSize="976432" sparkle:deltaFromSparkleLocales="de,he,ar,el,ja,fa,uk" sparkle:edSignature="iweh6QWDkXwWhw0UmRQxpwSKtnpoI1d8HQrb1sAmereM1u4VcyxYsLOWZ7Zo6D9XlcF9c0csjqal1gxpn0gPBw=="/>
-                <enclosure url="https://github.com/imadhy/lean-releases/releases/download/v0.2.0/Lean285-218.delta" sparkle:deltaFrom="218" length="3924698" type="application/octet-stream" sparkle:deltaFromSparkleExecutableSize="976432" sparkle:deltaFromSparkleLocales="de,he,ar,el,ja,fa,uk" sparkle:edSignature="zY/S/1LI8mCFUIhC819ta9XDHRGaZbTmcXtMlnc9jTuCIo6SoMMHHAIgnZpKtIQeym6UJQLp8HnBlE9XQt6rAQ=="/>
             </sparkle:deltas>
         </item>
     </channel>
