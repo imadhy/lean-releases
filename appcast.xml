@@ -3,6 +3,40 @@
     <channel>
         <title>Lean</title>
         <item>
+            <title>0.7.0</title>
+            <pubDate>Mon, 02 Nov 2026 16:14:19 +0000</pubDate>
+            <sparkle:version>390</sparkle:version>
+            <sparkle:shortVersionString>0.7.0</sparkle:shortVersionString>
+            <sparkle:minimumSystemVersion>26.0</sparkle:minimumSystemVersion>
+            <description sparkle:format="markdown"><![CDATA[## Nouveautés
+
+- **Installer un site comme application** : sur un site qui le permet, comme Google Meet, le bouton « Installer » au bout de la barre d'adresse, ou Fichier › Installer <nom>…, en fait une application. Tu choisis son nom avant de l'installer. Ce n'est pas possible depuis un Space privé.
+- **Une fenêtre à part** : une application installée s'ouvre dans sa propre fenêtre, sans barre latérale ni barre d'adresse, sous une barre de titre à la couleur du site. Elle a son nom et son icône dans le Dock, ⌘⇥, Launchpad et Spotlight, et reste connectée au compte du Space où tu l'as installée.
+- **Notifications des applications** : elles arrivent au nom et à l'icône de l'application, se règlent à part dans Réglages Système › Notifications, et un clic ramène sa fenêtre. Un site qui le gère peut aussi mettre une pastille sur son icône du Dock.
+- **Réglages › Applications** : la liste de tes applications, pour les ouvrir ou les désinstaller. Sur le site d'une application installée, « Ouvrir dans <nom> » remplace « Installer », et la fenêtre de l'application propose « Ouvrir dans Lean ».
+- **Ranger par glisser** : glisse un onglet sur un dossier de favoris pour l'y ranger, ou un favori parmi les onglets pour le sortir de son dossier.
+- **Image pour un dossier** : un dossier de favoris peut porter une image, le logo d'un client par exemple, à la place d'un emoji. Choisis-la, glisse-la ou colle-la dans « Modifier le dossier ».
+- **Modifier un épinglé** : clic droit sur une tuile épinglée › « Modifier… » pour lui donner un nom et un emoji. La zone d'icône du dialogue ouvre le choix d'un emoji, et sa petite croix rend l'icône du site.
+- **Nom d'un épinglé au survol** : survoler une tuile épinglée affiche son nom tout de suite, dans une encoche au bord de la page.
+- **Masquer les pull requests** : clic droit sur la ligne des PR › « Masquer de la barre latérale ». Elle revient par « Afficher les pull requests GitHub » dans les réglages du Space.
+- **Barre latérale plus lisible** : la ligne sélectionnée est marquée d'une pastille de verre qui glisse d'une ligne à l'autre, un onglet réveillé porte un léger halo de la couleur de son icône, et chaque dossier de favoris est posé sur un voile léger.
+
+## Corrections
+
+- **Favoris dans un dossier** : un clic sur le titre ou l'icône d'un favori l'ouvre. Avant, seul un clic tout à droite de la ligne marchait. Un double-clic le ramène toujours à son adresse d'origine.
+- **Onglet sorti de son groupe** : un onglet que tu glisses hors de son groupe par site reste où tu l'as posé, au lieu d'y revenir tout seul. Repose-le contre le groupe pour l'y remettre.
+- **Onglets en veille** : ils gardent la couleur de leur icône, un peu pâlie, au lieu de virer au gris. Une barre latérale pleine d'onglets en veille reste lisible.
+- **Titres coupés** : les lignes de la barre latérale vont plus près des bords, et la barre de défilement, fine, passe par-dessus les lignes même quand macOS est réglé pour toujours l'afficher. Les titres longs gagnent de la place.
+- **Nom du Space** : il ne prend plus une ligne en haut de la liste des onglets, puisqu'il est déjà en bas de la barre latérale. VoiceOver le lit en entrant dans la liste.
+]]></description>
+            <enclosure url="https://github.com/imadhy/lean-releases/releases/download/v0.7.0/Lean-0.7.0.zip" length="12060983" type="application/octet-stream" sparkle:edSignature="O4GQOaJd83+QsVOfH2zcovCMwlpVyIOzFuEDEsYp++WH46QwrZPyPYPJSUUEAgZMZaqd2CsyTTqToUoVZ12AAg=="/>
+            <sparkle:deltas>
+                <enclosure url="https://github.com/imadhy/lean-releases/releases/download/v0.7.0/Lean390-370.delta" sparkle:deltaFrom="370" length="3005078" type="application/octet-stream" sparkle:deltaFromSparkleExecutableSize="976432" sparkle:deltaFromSparkleLocales="de,he,ar,el,ja,fa,uk" sparkle:edSignature="DZ+Dzs8t8FXS+kTnv7mUcETobPB9iYmkohPT9hXlldq5e3NycSC0lUdTXMXant0jrCLXxxqdBasaqUPweje1DQ=="/>
+                <enclosure url="https://github.com/imadhy/lean-releases/releases/download/v0.7.0/Lean390-331.delta" sparkle:deltaFrom="331" length="3631738" type="application/octet-stream" sparkle:deltaFromSparkleExecutableSize="976432" sparkle:deltaFromSparkleLocales="de,he,ar,el,ja,fa,uk" sparkle:edSignature="E6qxSS5+urxcxnPQbSkCyTkIVDeBYpaThQVBka6xBEhFI9NP3HA5MRIK7bXgE9yLUCT1a9UCX3KNM77NbIKRBw=="/>
+                <enclosure url="https://github.com/imadhy/lean-releases/releases/download/v0.7.0/Lean390-329.delta" sparkle:deltaFrom="329" length="3674142" type="application/octet-stream" sparkle:deltaFromSparkleExecutableSize="976432" sparkle:deltaFromSparkleLocales="de,he,ar,el,ja,fa,uk" sparkle:edSignature="vJKbePe6L72HpMZ7sd8JxVklSllcosMVGIEJEQCs0ZswWkFbLGVUCyKUa9L1bf73TMX0Kal9zQNduVOCtWA1BA=="/>
+            </sparkle:deltas>
+        </item>
+        <item>
             <title>0.6.0</title>
             <pubDate>Mon, 02 Nov 2026 09:17:19 +0000</pubDate>
             <sparkle:version>370</sparkle:version>
@@ -61,24 +95,6 @@
                 <enclosure url="https://github.com/imadhy/lean-releases/releases/download/v0.5.0/Lean331-329.delta" sparkle:deltaFrom="329" length="1321886" type="application/octet-stream" sparkle:deltaFromSparkleExecutableSize="976432" sparkle:deltaFromSparkleLocales="de,he,ar,el,ja,fa,uk" sparkle:edSignature="T0ojyuhaDMofCbfvUM+LH/smM2LfHghqEAHVuN9JtsGnJcDIR5VJc5X/FbrBD8CYG9NBnAuppD8XfIjG4OMoAQ=="/>
                 <enclosure url="https://github.com/imadhy/lean-releases/releases/download/v0.5.0/Lean331-326.delta" sparkle:deltaFrom="326" length="1430254" type="application/octet-stream" sparkle:deltaFromSparkleExecutableSize="976432" sparkle:deltaFromSparkleLocales="de,he,ar,el,ja,fa,uk" sparkle:edSignature="BuosDbvi5zBummZQkkqkfjfT6oczsMs1MfX+zYqCluWHmZDo91F92tkh7i4CmUguCYt9M/aKStHFW3Ug4zwpCA=="/>
                 <enclosure url="https://github.com/imadhy/lean-releases/releases/download/v0.5.0/Lean331-303.delta" sparkle:deltaFrom="303" length="2432930" type="application/octet-stream" sparkle:deltaFromSparkleExecutableSize="976432" sparkle:deltaFromSparkleLocales="de,he,ar,el,ja,fa,uk" sparkle:edSignature="x8SEvbSC1BIvD1QIY5jW8o90ga/yzjPfKHeHCraKe8o0bg/FBc27U8TH5RWvMBH+L+wkFh1rB4EKQLIYxihXBQ=="/>
-            </sparkle:deltas>
-        </item>
-        <item>
-            <title>0.4.2</title>
-            <pubDate>Thu, 22 Oct 2026 08:54:34 +0000</pubDate>
-            <sparkle:version>329</sparkle:version>
-            <sparkle:shortVersionString>0.4.2</sparkle:shortVersionString>
-            <sparkle:minimumSystemVersion>26.0</sparkle:minimumSystemVersion>
-            <description sparkle:format="markdown"><![CDATA[## Corrections
-
-- **Sauvegarde** : changer le dossier des sauvegardes dans les Réglages ne fait plus quitter Lean après Touch ID. Le même problème touchait l'activation des sauvegardes, ainsi que l'import et l'export des mots de passe en CSV.
-- **Barre latérale** : cliquer l'onglet déjà ouvert ne laisse plus de fond coloré sous lui, qui virait à l'orange quand tu quittais la fenêtre.
-]]></description>
-            <enclosure url="https://github.com/imadhy/lean-releases/releases/download/v0.4.2/Lean-0.4.2.zip" length="10694513" type="application/octet-stream" sparkle:edSignature="4u3uaKmiC+mzcF4rHylL7x3Bc+IMoQ51xF+60VTuE0C63MOnmm2p4nE3JtfLwGkzV3WJUYgyDY3kTr5kBfFeCA=="/>
-            <sparkle:deltas>
-                <enclosure url="https://github.com/imadhy/lean-releases/releases/download/v0.4.2/Lean329-326.delta" sparkle:deltaFrom="326" length="1035198" type="application/octet-stream" sparkle:deltaFromSparkleExecutableSize="976432" sparkle:deltaFromSparkleLocales="de,he,ar,el,ja,fa,uk" sparkle:edSignature="c1bvc0K7lOkRcwjuU5pP5CL5XDGXo2rms8ESXgEkaxHYC43i7HQPfbUmwWrc90Xq4c+iA03XKp6HP9zTK3zzBg=="/>
-                <enclosure url="https://github.com/imadhy/lean-releases/releases/download/v0.4.2/Lean329-303.delta" sparkle:deltaFrom="303" length="2358210" type="application/octet-stream" sparkle:deltaFromSparkleExecutableSize="976432" sparkle:deltaFromSparkleLocales="de,he,ar,el,ja,fa,uk" sparkle:edSignature="1Ca/XtS24b4HMDIxaBskA4pRUwqQDqToenAfdzNwhBZBlgFYChkMby7UxnD+1xyh7lW8C+FYkaUuDhL4UyzGCA=="/>
-                <enclosure url="https://github.com/imadhy/lean-releases/releases/download/v0.4.2/Lean329-285.delta" sparkle:deltaFrom="285" length="2545670" type="application/octet-stream" sparkle:deltaFromSparkleExecutableSize="976432" sparkle:deltaFromSparkleLocales="de,he,ar,el,ja,fa,uk" sparkle:edSignature="5B77s16mxES1G4ag3ofj4GDlLUAT61ENSsKgVFLUlsGo9PXMIsM8B/4dgatT7brXNrzhTOOBgZGFDhkNO0aiDg=="/>
             </sparkle:deltas>
         </item>
     </channel>
